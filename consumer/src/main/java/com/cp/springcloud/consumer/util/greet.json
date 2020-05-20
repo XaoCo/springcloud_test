@@ -1,0 +1,39 @@
+{
+  "name": "Greeting",
+  "id": "2a965a42-b822-44e6-9ca3-35818af67192",
+  "address": "localhost",
+  "port": 8083,
+  "sslPort": null,
+  "payload": {
+    "@class": "org.springframework.cloud.zookeeper.discovery.ZookeeperInstance",
+    "id": "application-1",
+    "name": "Greeting",
+    "metadata": {}
+  },
+  "registrationTimeUTC": 1589881681953,
+  "serviceType": "DYNAMIC",
+  "uriSpec": {
+    "parts": [
+      {
+        "value": "scheme",
+        "variable": true
+      },
+      {
+        "value": "://",
+        "variable": false
+      },
+      {
+        "value": "address",
+        "variable": true
+      },
+      {
+        "value": ":",
+        "variable": false
+      },
+      {
+        "value": "port",
+        "variable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "HelloWorld",
+  "id": "3199b8e7-9d68-43c5-8260-2224789cf693",
+  "address": "localhost",
+  "port": 8081,
+  "sslPort": null,
+  "payload": {
+    "@class": "org.springframework.cloud.zookeeper.discovery.ZookeeperInstance",
+    "id": "application-1",
+    "name": "HelloWorld",
+    "metadata": {}
+  },
+  "registrationTimeUTC": 1589881480597,
+  "serviceType": "DYNAMIC",
+  "uriSpec": {
+    "parts": [
+      {
+        "value": "scheme",
+        "variable": true
+      },
+      {
+        "value": "://",
+        "variable": false
+      },
+      {
+        "value": "address",
+        "variable": true
+      },
+      {
+        "value": ":",
+        "variable": false
+      },
+      {
+        "value": "port",
+        "variable": true
+      }
+    ]
+  }
+}
